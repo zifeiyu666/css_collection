@@ -1,0 +1,9 @@
+@import './common';
+
+// img水平垂直居中
+.img-box {
+  display: flex;
+}
+.img-box__wrapper {
+  flex: 1;
+}

@@ -1,0 +1,8 @@
+// hover过渡效果
+@mixin t-hover($x: 0, $y: 2px, $time: 0.2s) {
+  transition: all $time ease-in-out;
+  @content;
+  &:hover {
+    transform: translate($x, $y);
+  }
+}
